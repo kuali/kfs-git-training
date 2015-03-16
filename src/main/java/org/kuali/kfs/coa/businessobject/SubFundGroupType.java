@@ -21,21 +21,10 @@ package org.kuali.kfs.coa.businessobject;
 
 import java.util.LinkedHashMap;
 
-/**
- * 
- */
 public class SubFundGroupType {
-
     private String subFundGroupTypeCode;
     private String subFundGroupTypeDescription;
     private boolean active;
-
-    /**
-     * Default constructor.
-     */
-    public SubFundGroupType() {
-
-    }
 
     /**
      * Gets the subFundGroupTypeCode attribute.
@@ -92,7 +81,7 @@ public class SubFundGroupType {
     public void setActive(boolean active) {
         this.active = active;
     }
-    
+
     protected LinkedHashMap toStringMapper_RICE20_REFACTORME() {
         LinkedHashMap m = new LinkedHashMap();
         m.put("subFundGroupTypeCode", this.subFundGroupTypeCode);

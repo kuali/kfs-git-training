@@ -20,18 +20,7 @@ package org.kuali.kfs.coa.businessobject;
 
 import java.util.LinkedHashMap;
 
-/**
- * 
- */
 public class ObjectConsolidation {
-
-    /**
-     * Default no-arg constructor.
-     */
-    public ObjectConsolidation() {
-
-    }
-
     private String chartOfAccountsCode;
     private String finConsolidationObjectCode;
     private String finConsolidationObjectName;

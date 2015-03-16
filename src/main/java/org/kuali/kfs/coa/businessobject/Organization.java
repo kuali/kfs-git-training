@@ -25,9 +25,6 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.Set;
 
-/**
- *
- */
 public class Organization {
     protected String organizationCode;
     protected String organizationName;

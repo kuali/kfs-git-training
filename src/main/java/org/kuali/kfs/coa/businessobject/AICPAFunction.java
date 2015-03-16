@@ -21,21 +21,10 @@ package org.kuali.kfs.coa.businessobject;
 
 import java.util.LinkedHashMap;
 
-/**
- * Business object for American Institute of Certified Public Accountants (AICPA) function
- */
 public class AICPAFunction {
-
     private String financialAicpaFunctionCode;
     private String financialAicpaFunctionName;
     private boolean active;
-
-    /**
-     * Default constructor.
-     */
-    public AICPAFunction() {
-
-    }
 
     /**
      * Gets the financialAicpaFunctionCode attribute.

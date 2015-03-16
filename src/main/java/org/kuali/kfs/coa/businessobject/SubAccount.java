@@ -21,13 +21,7 @@ package org.kuali.kfs.coa.businessobject;
 
 import java.util.LinkedHashMap;
 
-/**
- * 
- */
 public class SubAccount {
-
-    private static final long serialVersionUID = 6853259976912014273L;
-
     private String chartOfAccountsCode;
     private String accountNumber;
     private String subAccountNumber;
@@ -42,7 +36,6 @@ public class SubAccount {
     private Organization org;
     private Chart financialReportChart;
 
-
     // Several kinds of Dummy Attributes for dividing sections on Inquiry page
     private String financialReportingCodeSectionBlank;
     private String financialReportingCodeSection;
@@ -50,12 +43,6 @@ public class SubAccount {
     private String cgCostSharingSection;
     private String cgICRSectionBlank;
     private String cgICRSection;
-
-    /**
-     * Default no-arg constructor.
-     */
-    public SubAccount() {
-    }
 
     /**
      * Gets the accountNumber attribute.

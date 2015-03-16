@@ -20,19 +20,7 @@ package org.kuali.kfs.coa.businessobject;
 
 import java.util.LinkedHashMap;
 
-
-/**
- * 
- */
 public class AccountType {
-
-    /**
-     * Default no-arg constructor.
-     */
-    public AccountType() {
-
-    }
-
     private String accountTypeCode;
     private String accountTypeName;
     private boolean active;

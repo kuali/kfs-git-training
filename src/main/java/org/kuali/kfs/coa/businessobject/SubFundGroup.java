@@ -21,20 +21,7 @@ package org.kuali.kfs.coa.businessobject;
 
 import java.util.LinkedHashMap;
 
-/**
- * 
- */
 public class SubFundGroup {
-
-    /**
-     * Default no-arg constructor.
-     */
-    public SubFundGroup() {
-
-    }
-
-    private static final long serialVersionUID = 3304324942061886270L;
-
     private String subFundGroupCode;
     private String subFundGroupDescription;
     private boolean active;

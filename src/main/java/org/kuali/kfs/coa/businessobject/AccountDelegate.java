@@ -21,17 +21,7 @@ package org.kuali.kfs.coa.businessobject;
 import java.math.BigDecimal;
 import java.sql.Date;
 
-/**
- *
- */
 public class AccountDelegate {
-
-    /**
-     * Default no-arg constructor.
-     */
-    public AccountDelegate() {
-    }
-
     private String chartOfAccountsCode;
     private String accountNumber;
     private String financialDocumentTypeCode;

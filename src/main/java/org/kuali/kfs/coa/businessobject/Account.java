@@ -22,9 +22,6 @@ package org.kuali.kfs.coa.businessobject;
 import java.sql.Date;
 import java.util.List;
 
-/**
- *
- */
 public class Account {
     protected String chartOfAccountsCode;
     protected String accountNumber;
@@ -51,7 +48,7 @@ public class Account {
     protected boolean financialObjectivePrsctrlIndicator;
     protected String accountCfdaNumber;
     protected boolean accountOffCampusIndicator;
-    protected boolean active;
+    protected boolean active = true;
 
     protected String accountFiscalOfficerSystemIdentifier;
     protected String accountsSupervisorySystemsIdentifier;
@@ -90,27 +87,10 @@ public class Account {
     protected Chart incomeStreamChartOfAccounts;
     protected Chart contractControlChartOfAccounts;
 
-    // Several kinds of Dummy Attributes for dividing sections on Inquiry page
-    protected String accountResponsibilitySectionBlank;
-    protected String accountResponsibilitySection;
-    protected String contractsAndGrantsSectionBlank;
-    protected String contractsAndGrantsSection;
-    protected String guidelinesAndPurposeSectionBlank;
-    protected String guidelinesAndPurposeSection;
-    protected String accountDescriptionSectionBlank;
-    protected String accountDescriptionSection;
-
     protected Boolean forContractsAndGrants;
 
     protected List<SubAccount> subAccounts;
-    //added for the employee labor benefit calculation
     protected String laborBenefitRateCategoryCode;
-    /**
-     * Default no-arg constructor.
-     */
-    public Account() {
-        active = true; // assume active is true until set otherwise
-    }
 
     /**
      * Gets the accountNumber attribute.
@@ -1102,115 +1082,6 @@ public class Account {
     public String getAccountKey() {
         String key = getChartOfAccountsCode() + ":" + getAccountNumber();
         return key;
-    }
-
-
-    /**
-     * Gets the accountResponsibilitySection attribute.
-     *
-     * @return Returns the accountResponsibilitySection.
-     */
-    public String getAccountResponsibilitySection() {
-        return accountResponsibilitySection;
-    }
-
-    /**
-     * Sets the accountResponsibilitySection attribute value.
-     *
-     * @param accountResponsibilitySection The accountResponsibilitySection to set.
-     */
-    public void setAccountResponsibilitySection(String accountResponsibilitySection) {
-        this.accountResponsibilitySection = accountResponsibilitySection;
-    }
-
-    /**
-     * Gets the contractsAndGrantsSection attribute.
-     *
-     * @return Returns the contractsAndGrantsSection.
-     */
-    public String getContractsAndGrantsSection() {
-        return contractsAndGrantsSection;
-    }
-
-    /**
-     * Sets the contractsAndGrantsSection attribute value.
-     *
-     * @param contractsAndGrantsSection The contractsAndGrantsSection to set.
-     */
-    public void setContractsAndGrantsSection(String contractsAndGrantsSection) {
-        this.contractsAndGrantsSection = contractsAndGrantsSection;
-    }
-
-    /**
-     * Gets the accountDescriptionSection attribute.
-     *
-     * @return Returns the accountDescriptionSection.
-     */
-    public String getAccountDescriptionSection() {
-        return accountDescriptionSection;
-    }
-
-    /**
-     * Sets the accountDescriptionSection attribute value.
-     *
-     * @param accountDescriptionSection The accountDescriptionSection to set.
-     */
-    public void setAccountDescriptionSection(String accountDescriptionSection) {
-        this.accountDescriptionSection = accountDescriptionSection;
-    }
-
-    /**
-     * Gets the guidelinesAndPurposeSection attribute.
-     *
-     * @return Returns the guidelinesAndPurposeSection.
-     */
-    public String getGuidelinesAndPurposeSection() {
-        return guidelinesAndPurposeSection;
-    }
-
-    /**
-     * Sets the guidelinesAndPurposeSection attribute value.
-     *
-     * @param guidelinesAndPurposeSection The guidelinesAndPurposeSection to set.
-     */
-    public void setGuidelinesAndPurposeSection(String guidelinesAndPurposeSection) {
-        this.guidelinesAndPurposeSection = guidelinesAndPurposeSection;
-    }
-
-    /**
-     * Gets the accountResponsibilitySectionBlank attribute.
-     *
-     * @return Returns the accountResponsibilitySectionBlank.
-     */
-    public String getAccountResponsibilitySectionBlank() {
-        return accountResponsibilitySectionBlank;
-    }
-
-    /**
-     * Gets the contractsAndGrantsSectionBlank attribute.
-     *
-     * @return Returns the contractsAndGrantsSectionBlank.
-     */
-    public String getContractsAndGrantsSectionBlank() {
-        return contractsAndGrantsSectionBlank;
-    }
-
-    /**
-     * Gets the accountDescriptionSectionBlank attribute.
-     *
-     * @return Returns the accountDescriptionSectionBlank.
-     */
-    public String getAccountDescriptionSectionBlank() {
-        return accountDescriptionSectionBlank;
-    }
-
-    /**
-     * Gets the guidelinesAndPurposeSectionBlank attribute.
-     *
-     * @return Returns the guidelinesAndPurposeSectionBlank.
-     */
-    public String getGuidelinesAndPurposeSectionBlank() {
-        return guidelinesAndPurposeSectionBlank;
     }
 
     /**

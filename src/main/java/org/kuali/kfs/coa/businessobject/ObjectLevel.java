@@ -18,10 +18,6 @@
  */
 package org.kuali.kfs.coa.businessobject;
 
-
-/**
- * 
- */
 public class ObjectLevel {
     private String chartOfAccountsCode;
     private String financialObjectLevelCode;
@@ -31,17 +27,8 @@ public class ObjectLevel {
     private String financialReportingSortCode;
     private String financialConsolidationObjectCode;
 
-    private ObjectConsolidation financialConsolidationObject;
+    private ObjectConsolidation financialConsolidationObject = new ObjectConsolidation();
     private Chart chartOfAccounts;
-
-
-    /**
-     * Constructs a ObjLevel.java.
-     */
-    public ObjectLevel() {
-        super();
-        this.financialConsolidationObject = new ObjectConsolidation();
-    }
 
     /**
      * Gets the financialObjectLevelCode attribute.

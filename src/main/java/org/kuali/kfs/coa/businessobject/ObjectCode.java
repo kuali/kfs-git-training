@@ -18,11 +18,7 @@
  */
 package org.kuali.kfs.coa.businessobject;
 
-/**
- * 
- */
 public class ObjectCode {
-    private static final long serialVersionUID = -965833141452795485L;
     protected Integer universityFiscalYear;
     protected String chartOfAccountsCode;
     protected String financialObjectCode;
@@ -40,21 +36,10 @@ public class ObjectCode {
     protected String finObjMandatoryTrnfrelimCd;
     protected String financialFederalFundedCode;
 
-    protected ObjectLevel financialObjectLevel;
+    protected ObjectLevel financialObjectLevel = new ObjectLevel();
     protected Chart chartOfAccounts;
     protected Chart reportsToChartOfAccounts;
     protected ObjectCode reportsToFinancialObject;
-
-    /**
-     * Default no-arg constructor.
-     */
-    public ObjectCode() {
-        // initialize the object fiscal year to the current fiscal year
-        // universityFiscalYear = SpringContext.getBean(DateTimeService.class).getCurrentFiscalYear();
-
-        // construct the referenced objects for the calling of the referencing object
-        this.financialObjectLevel = new ObjectLevel();
-    }
 
     /**
      * Constructs a ObjectCode.java with the given defaults; this way, it is not necessary to use any deprecated setters.

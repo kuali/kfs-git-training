@@ -19,12 +19,7 @@
 
 package org.kuali.kfs.coa.businessobject;
 
-
-/**
- * Fund Group Business Object
- */
 public class FundGroup {
-    private static final long serialVersionUID = 6940405128416948259L;
     protected String code;
     protected String name;
     protected boolean active = true;
