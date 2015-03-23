@@ -37,6 +37,13 @@ public class ReportingCode {
     private Chart chart;
     private Organization org;
     private ReportingCode reportingCodes;
+    
+    /**
+     * Creates new object and sets up logging
+     */
+    public ReportingCode(){
+    	LOG.log(Level.INFO, "An object of class "+getClass().getName()+" has been instantiated");
+    }
 
     /**
      * @return Returns the chartOfAccountsCode.
