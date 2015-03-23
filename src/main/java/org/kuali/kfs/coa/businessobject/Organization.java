@@ -24,6 +24,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Properties;
 import java.util.Set;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Organization {
@@ -72,6 +73,7 @@ public class Organization {
 
     public Organization() {
     	LOG.log(Level.INFO, "An object of class "+getClass().getName()+" has been instantiated");
+    	
     }
 
     /**
