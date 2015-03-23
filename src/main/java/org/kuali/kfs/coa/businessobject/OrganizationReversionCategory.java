@@ -20,12 +20,16 @@
 package org.kuali.kfs.coa.businessobject;
 
 import java.util.LinkedHashMap;
+import java.util.logging.Logger;
+
 
 public class OrganizationReversionCategory {
     private String organizationReversionCategoryCode;
     private String organizationReversionCategoryName;
     private String organizationReversionSortCode;
     private boolean active;
+
+private static Logger LOG = Logger.getLogger(OrganizationReversionCategory.class.getName());    
 
     /**
      * Gets the organizationReversionCategoryCode attribute.
