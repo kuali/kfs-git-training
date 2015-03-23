@@ -29,6 +29,9 @@ public class OrganizationReversionCategory {
     private String organizationReversionSortCode;
     private boolean active;
 
+/**
+* Young's comment 
+*/
 private static Logger LOG = Logger.getLogger(OrganizationReversionCategory.class.getName());    
 
     /**
