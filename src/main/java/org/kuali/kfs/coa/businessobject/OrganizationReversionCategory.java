@@ -31,6 +31,12 @@ public class OrganizationReversionCategory {
 
 private static Logger LOG = Logger.getLogger(OrganizationReversionCategory.class.getName());    
 
+    public OrganizationReversionCategory()
+    {
+        LOG.log(Level.INFO, "An object of class "+getClass().getName()+" has been instantiated");
+       
+    }
+
     /**
      * Gets the organizationReversionCategoryCode attribute.
      * 
