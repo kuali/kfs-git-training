@@ -22,12 +22,12 @@ package org.kuali.kfs.coa.businessobject;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
-<<<<<<< HEAD
 import java.util.logging.Logger;
-=======
 import java.util.logging.Level;
->>>>>>> Added logging to my OrganizationReversion bo
 
+/**
+ * Merge conflicts are fun!
+ */
 public class OrganizationReversion {
 	
 	private static Logger LOG = Logger.getLogger(OrganizationReversion.class.getName());
