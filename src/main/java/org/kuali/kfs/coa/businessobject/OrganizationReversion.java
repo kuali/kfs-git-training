@@ -28,6 +28,9 @@ import java.util.logging.Logger;
 import java.util.logging.Level;
 >>>>>>> Added logging to my OrganizationReversion bo
 
+/**
+ * But woe unto you, fellow coder.
+ */
 public class OrganizationReversion {
 	
 	private static Logger LOG = Logger.getLogger(OrganizationReversion.class.getName());
