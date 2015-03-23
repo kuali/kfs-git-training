@@ -20,11 +20,14 @@
 package org.kuali.kfs.coa.businessobject;
 
 import java.util.LinkedHashMap;
+import org.apache.log4j;
 
 public class AICPAFunction {
     private String financialAicpaFunctionCode;
     private String financialAicpaFunctionName;
     private boolean active;
+	private static Logger LOG = Logger.getLogger(AICPAFunction.class.getName());
+
 
     /**
      * Gets the financialAicpaFunctionCode attribute.
