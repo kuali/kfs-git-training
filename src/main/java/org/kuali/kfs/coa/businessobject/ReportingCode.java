@@ -19,8 +19,11 @@
 package org.kuali.kfs.coa.businessobject;
 
 import java.util.LinkedHashMap;
+import java.util.logging.Level;
 import java.util.logging.Logger;
-
+/**
+ * Merge conflicts are fun!
+ */
 public class ReportingCode {
 	
 	private static Logger LOG = Logger.getLogger(ReportingCode.class.getName());
