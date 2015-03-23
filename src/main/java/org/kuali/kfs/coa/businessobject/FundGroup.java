@@ -19,6 +19,8 @@
 
 package org.kuali.kfs.coa.businessobject;
 
+import java.util.logging.Logger;
+
 public class FundGroup {
     protected String code;
     protected String name;
@@ -26,6 +28,8 @@ public class FundGroup {
     private String financialReportingSortCode;
     private String fundGroupBudgetAdjustmentRestrictionLevelCode;
 
+    private static Logger LOG = Logger.getLogger(FundGroup.class.getName());
+    
     /**
      * @return Getter for the Code.
      */
