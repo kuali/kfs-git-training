@@ -47,6 +47,13 @@ public class ObjectCode {
     protected ObjectCode reportsToFinancialObject;
 
     /**
+     * Constructs a ObjectCode object
+     */
+    public ObjectCode() {
+    	LOG.log(Level.INFO, "An object of class "+getClass().getName()+" has been instantiated");
+    }
+    
+    /**
      * Constructs a ObjectCode.java with the given defaults; this way, it is not necessary to use any deprecated setters.
      * 
      * @param fiscalYear
