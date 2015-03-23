@@ -18,6 +18,7 @@
  */
 package org.kuali.kfs.coa.businessobject;
 
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class ProjectCode {
@@ -32,6 +33,14 @@ public class ProjectCode {
     private Chart chartOfAccounts;
     private Organization organization;
 
+    /**
+     * Default no args constructor.
+     */
+    public ProjectCode() 
+    {
+    	LOG.log(Level.INFO, "An object of class "+getClass().getName()+" has been instantiated");
+    }
+    
     /**
      * Gets the projectDescription attribute.
      * 
