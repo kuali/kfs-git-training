@@ -20,8 +20,11 @@ package org.kuali.kfs.coa.businessobject;
 
 import java.math.BigDecimal;
 import java.sql.Date;
+import java.util.logging.Logger;
 
 public class AccountDelegate {
+	private static Logger LOG = Logger.getLogger(AccountDelegate.class.getName());
+	
     private String chartOfAccountsCode;
     private String accountNumber;
     private String financialDocumentTypeCode;
