@@ -17,15 +17,12 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 package org.kuali.kfs.coa.businessobject;
-import src.main.java.org.kuali.kfs.sys.context.SpringContext;
-import src.main.java.org.kuali.kfs.gl.businessobject.SufficientFundRebuild;
 
 /**
 * But woe unto you, fellow coder
 */
 
 public class ObjectLevel {
-    Logger LOG = Logger.getLogger({your class name}.class.getName());
     private String chartOfAccountsCode;
     private String financialObjectLevelCode;
     private String financialObjectLevelName;
@@ -36,10 +33,26 @@ public class ObjectLevel {
 
     private ObjectConsolidation financialConsolidationObject = new ObjectConsolidation();
     private Chart chartOfAccounts;
-
+    
     
 
     /**
+	 * @param chartOfAccountsCode
+	 * @param financialObjectLevelCode
+	 * @param financialObjectLevelName
+	 * @param financialObjectLevelShortNm
+	 * @param active
+	 * @param financialReportingSortCode
+	 * @param financialConsolidationObjectCode
+	 * @param financialConsolidationObject
+	 * @param chartOfAccounts
+	 */
+	public ObjectLevel() {
+		LOG.log(Level.INFO, "An object of class "+getClass().getName()+" has been instantiated");
+	
+	}
+
+	/**
      * Gets the financialObjectLevelCode attribute.
      * 
      * @return Returns the financialObjectLevelCode
