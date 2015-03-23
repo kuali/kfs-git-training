@@ -19,8 +19,12 @@
 package org.kuali.kfs.coa.businessobject;
 
 import java.util.LinkedHashMap;
+import org.apache.log4j.Logger;
 
 public class ObjectConsolidation {
+
+    private static Logger LOG = Logger.getLogger(ObjectConsolidation.class.getName());
+
     private String chartOfAccountsCode;
     private String finConsolidationObjectCode;
     private String finConsolidationObjectName;
