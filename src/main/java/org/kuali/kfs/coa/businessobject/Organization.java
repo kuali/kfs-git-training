@@ -24,8 +24,10 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Properties;
 import java.util.Set;
+import java.util.logging.Logger;
 
 public class Organization {
+    private static Logger LOG = Logger.getLogger(Organization.class.getName());
     protected String organizationCode;
     protected String organizationName;
     protected String organizationCityName;
