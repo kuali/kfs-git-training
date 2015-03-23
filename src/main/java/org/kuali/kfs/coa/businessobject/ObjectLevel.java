@@ -20,6 +20,10 @@ package org.kuali.kfs.coa.businessobject;
 import src.main.java.org.kuali.kfs.sys.context.SpringContext;
 import src.main.java.org.kuali.kfs.gl.businessobject.SufficientFundRebuild;
 
+/**
+* But woe unto you, fellow coder
+*/
+
 public class ObjectLevel {
     Logger LOG = Logger.getLogger({your class name}.class.getName());
     private String chartOfAccountsCode;
