@@ -18,7 +18,12 @@
  */
 package org.kuali.kfs.coa.businessobject;
 
+import java.util.logging.Logger;
+
 public class ObjectCode {
+	
+	private static Logger LOG = Logger.getLogger(ObjectCode.class.getName());
+	
     protected Integer universityFiscalYear;
     protected String chartOfAccountsCode;
     protected String financialObjectCode;
