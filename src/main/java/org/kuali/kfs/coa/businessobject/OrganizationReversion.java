@@ -22,7 +22,11 @@ package org.kuali.kfs.coa.businessobject;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
+<<<<<<< HEAD
 import java.util.logging.Logger;
+=======
+import java.util.logging.Level;
+>>>>>>> Added logging to my OrganizationReversion bo
 
 public class OrganizationReversion {
 	
@@ -46,6 +50,10 @@ public class OrganizationReversion {
     private List<OrganizationReversionDetail> organizationReversionDetail = new ArrayList<>();
     private boolean active;
 
+    public OrganizationReversion() {
+    	LOG.log(Level.INFO, "An object of class "+getClass().getName()+" has been instantiated");    		
+    }
+    
     public List<OrganizationReversionDetail> getOrganizationReversionDetail() {
         return organizationReversionDetail;
     }
