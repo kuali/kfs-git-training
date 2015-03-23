@@ -24,7 +24,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- * But woe unto you, fellow coder.
+ * Merge conflicts are fun!
  */
 public class AccountDelegate {
 	private static Logger LOG = Logger.getLogger(AccountDelegate.class.getName());
