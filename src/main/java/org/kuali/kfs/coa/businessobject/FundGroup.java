@@ -19,6 +19,7 @@
 
 package org.kuali.kfs.coa.businessobject;
 
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class FundGroup {
@@ -31,6 +32,13 @@ public class FundGroup {
     private static Logger LOG = Logger.getLogger(FundGroup.class.getName());
     
     /**
+     * Constructor
+     */
+    public FundGroup() {
+    	LOG.log(Level.INFO, "An object of class "+getClass().getName()+" has been instantiated");
+    }
+
+	/**
      * @return Getter for the Code.
      */
     public String getCode() {
