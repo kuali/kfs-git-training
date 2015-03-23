@@ -28,7 +28,12 @@ public class AICPAFunction {
     private boolean active;
 	private static Logger LOG = Logger.getLogger(AICPAFunction.class.getName());
 
-
+	/**
+	* default no-argument constructor
+	* @return Returns new AICPAFunction
+	public AICPAFunction ( ) {
+		LOG.log(Level.INFO, "An object of class "+getClass().getName()+" has been instantiated");
+	}
     /**
      * Gets the financialAicpaFunctionCode attribute.
      * 
