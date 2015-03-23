@@ -22,6 +22,10 @@ package org.kuali.kfs.coa.businessobject;
 import java.util.LinkedHashMap;
 import org.apache.log4j;
 
+/**
+ * Merge conflicts are fun!
+ */
+
 public class AICPAFunction {
     private String financialAicpaFunctionCode;
     private String financialAicpaFunctionName;
