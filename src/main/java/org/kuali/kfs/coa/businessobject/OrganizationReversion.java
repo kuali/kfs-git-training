@@ -22,8 +22,12 @@ package org.kuali.kfs.coa.businessobject;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.logging.Logger;
 
 public class OrganizationReversion {
+	
+	private static Logger LOG = Logger.getLogger(OrganizationReversion.class.getName());
+	
     private Integer universityFiscalYear;
     private String chartOfAccountsCode;
     private String organizationCode;
