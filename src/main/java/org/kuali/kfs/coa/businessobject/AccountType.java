@@ -23,7 +23,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- * But woe unto you, fellow coder.
+ * Merge conflicts are fun!
  */
 public class AccountType {
 
