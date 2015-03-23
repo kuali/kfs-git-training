@@ -17,11 +17,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 package org.kuali.kfs.coa.businessobject;
-import src.main.java.org.kuali.kfs.sys.context.SpringContext;
-import src.main.java.org.kuali.kfs.gl.businessobject.SufficientFundRebuild;
 
 public class ObjectLevel {
-    Logger LOG = Logger.getLogger({your class name}.class.getName());
     private String chartOfAccountsCode;
     private String financialObjectLevelCode;
     private String financialObjectLevelName;
@@ -32,12 +29,6 @@ public class ObjectLevel {
 
     private ObjectConsolidation financialConsolidationObject = new ObjectConsolidation();
     private Chart chartOfAccounts;
-<<<<<<< HEAD
-
-    
-
-    /**
-=======
     
     
 
@@ -58,7 +49,6 @@ public class ObjectLevel {
 	}
 
 	/**
->>>>>>> added constructor added code
      * Gets the financialObjectLevelCode attribute.
      * 
      * @return Returns the financialObjectLevelCode
