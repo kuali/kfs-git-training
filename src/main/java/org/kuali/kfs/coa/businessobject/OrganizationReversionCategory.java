@@ -30,8 +30,8 @@ public class OrganizationReversionCategory {
     private boolean active;
 
 /**
-* Young's comment 
-*/
+ * Merge conflicts are fun!
+ */
 private static Logger LOG = Logger.getLogger(OrganizationReversionCategory.class.getName());    
 
     /**
