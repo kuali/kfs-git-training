@@ -70,6 +70,10 @@ public class Organization {
 
     protected boolean active = true;
 
+    public Organization() {
+    	LOG.log(Level.INFO, "An object of class "+getClass().getName()+" has been instantiated");
+    }
+
     /**
      * Gets the organizationCode attribute.
      *
