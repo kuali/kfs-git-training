@@ -21,6 +21,9 @@ package org.kuali.kfs.coa.businessobject;
 import java.util.LinkedHashMap;
 import java.util.logging.Logger;
 
+/**
+ * But woe unto you, fellow coder.
+ */
 public class AccountType {
 
 	private static Logger LOG = Logger.getLogger(AccountType.class.getName());
