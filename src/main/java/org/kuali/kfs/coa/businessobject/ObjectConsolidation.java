@@ -21,6 +21,10 @@ package org.kuali.kfs.coa.businessobject;
 import java.util.LinkedHashMap;
 import org.apache.log4j.Logger;
 
+/**
+* Merge conflicts are fun!
+*/
+
 public class ObjectConsolidation {
 
     private static Logger LOG = Logger.getLogger(ObjectConsolidation.class.getName());
