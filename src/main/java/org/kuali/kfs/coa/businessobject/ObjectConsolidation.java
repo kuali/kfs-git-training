@@ -35,6 +35,13 @@ public class ObjectConsolidation {
     private Chart chartOfAccounts;
     
     /**
+    * no arg constructor 
+    */
+
+    public void ObjectConsolidation() {
+        LOG.log(Level.INFO, "An object of class "+getClass().getName()+" has been instantiated");
+    }
+    /**
      * Gets the chartOfAccountsCode attribute.
      * 
      * @return Returns the chartOfAccountsCode.
