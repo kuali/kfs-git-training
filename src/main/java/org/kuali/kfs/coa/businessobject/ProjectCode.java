@@ -21,6 +21,10 @@ package org.kuali.kfs.coa.businessobject;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+/**
+ * But woe unto you, fellow coder.
+ */
+
 public class ProjectCode {
 	
 	private static Logger LOG = Logger.getLogger(ProjectCode.class.getName());
