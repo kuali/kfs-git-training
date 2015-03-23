@@ -23,6 +23,9 @@ import java.sql.Date;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+/**
+ * But woe unto you, fellow coder.
+ */
 public class AccountDelegate {
 	private static Logger LOG = Logger.getLogger(AccountDelegate.class.getName());
 	
