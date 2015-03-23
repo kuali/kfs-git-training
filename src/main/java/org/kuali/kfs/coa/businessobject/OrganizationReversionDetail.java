@@ -20,6 +20,7 @@
 package org.kuali.kfs.coa.businessobject;
 
 import java.util.LinkedHashMap;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
 
@@ -39,6 +40,12 @@ public class OrganizationReversionDetail {
     private OrganizationReversionCategory organizationReversionCategory;
     private OrganizationReversion organizationReversion;
 
+    
+    OrganizationReversionDetail (){
+    	super();
+    	LOG.log(Level.INFO, "A new object of class " + OrganizationReversionDetail.class.getName() + " has been instantiated");
+    	LOG.log(Level.INFO, "Test git second commit");
+    }
     /**
      * Gets the universityFiscalYear attribute.
      * 
