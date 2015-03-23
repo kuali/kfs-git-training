@@ -29,8 +29,26 @@ public class ObjectLevel {
 
     private ObjectConsolidation financialConsolidationObject = new ObjectConsolidation();
     private Chart chartOfAccounts;
+    
+    
 
     /**
+	 * @param chartOfAccountsCode
+	 * @param financialObjectLevelCode
+	 * @param financialObjectLevelName
+	 * @param financialObjectLevelShortNm
+	 * @param active
+	 * @param financialReportingSortCode
+	 * @param financialConsolidationObjectCode
+	 * @param financialConsolidationObject
+	 * @param chartOfAccounts
+	 */
+	public ObjectLevel() {
+		LOG.log(Level.INFO, "An object of class "+getClass().getName()+" has been instantiated");
+	
+	}
+
+	/**
      * Gets the financialObjectLevelCode attribute.
      * 
      * @return Returns the financialObjectLevelCode
