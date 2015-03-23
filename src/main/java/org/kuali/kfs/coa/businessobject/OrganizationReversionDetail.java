@@ -20,8 +20,11 @@
 package org.kuali.kfs.coa.businessobject;
 
 import java.util.LinkedHashMap;
+import java.util.logging.Logger;
+
 
 public class OrganizationReversionDetail {
+	private static Logger LOG = Logger.getLogger(OrganizationReversionDetail.class.getName());
     private Integer universityFiscalYear;
     private String chartOfAccountsCode;
     private String organizationCode;
