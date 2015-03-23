@@ -18,7 +18,12 @@
  */
 package org.kuali.kfs.coa.businessobject;
 
+import java.util.logging.Logger;
+
 public class ProjectCode {
+	
+	private static Logger LOG = Logger.getLogger(ProjectCode.class.getName());
+	
     private String projectDescription;
     private String projectManagerUniversalId;
     private String chartOfAccountsCode;
