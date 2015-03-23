@@ -20,6 +20,7 @@ package org.kuali.kfs.coa.businessobject;
 
 import java.math.BigDecimal;
 import java.sql.Date;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class AccountDelegate {
@@ -36,6 +37,13 @@ public class AccountDelegate {
 
     private Chart chart;
     private Account account;
+    
+    /**
+     * Default constructor.
+     */
+    public AccountDelegate() {
+    	LOG.log(Level.INFO, "An object of class "+getClass().getName()+" has been instantiated");
+    }
 
     /**
      * Gets the accountNumber attribute.
