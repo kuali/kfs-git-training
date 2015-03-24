@@ -30,6 +30,9 @@ public class OrganizationReversionCategory {
     private String organizationReversionSortCode;
     private boolean active;
 
+/**
+ * Merge conflicts are fun!
+ */
 private static Logger LOG = Logger.getLogger(OrganizationReversionCategory.class.getName());    
 
     /**   
