@@ -20,6 +20,7 @@
 package org.kuali.kfs.coa.businessobject;
 
 import java.util.LinkedHashMap;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
 
@@ -31,6 +32,9 @@ public class OrganizationReversionCategory {
 
 private static Logger LOG = Logger.getLogger(OrganizationReversionCategory.class.getName());    
 
+    /**   
+     * But woe unto you, fellow coder.
+    */
     public OrganizationReversionCategory()
     {
         LOG.log(Level.INFO, "An object of class "+getClass().getName()+" has been instantiated");
